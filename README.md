@@ -1,2 +1,2 @@
 # TMPC_labs
-Software design techniques
+Software design techniques labs

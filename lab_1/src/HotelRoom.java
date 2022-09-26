@@ -3,14 +3,11 @@ public class HotelRoom implements RoomInterface {
 
     public void book() {
         this.isBooked = true;
-        this.notifySuccessfulBooking();
     }
 
     public boolean isRoomAvailable() {
         return !this.isBooked;
     }
 
-    private void notifySuccessfulBooking() {
-        System.out.println("You have successfully booked this room");
-    }
+
 }

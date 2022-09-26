@@ -8,14 +8,9 @@ public class WorkingRoom implements RoomInterface {
 
     public void book() {
         this.bookedPlaces++;
-        this.notifySuccessfulBooking();
     }
 
     public boolean isRoomAvailable() {
         return bookedPlaces + 1 <= availablePlaces;
-    }
-
-    private void notifySuccessfulBooking() {
-        System.out.println("You have successfully booked this room");
     }
 }
